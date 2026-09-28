@@ -1,8 +1,8 @@
-# Chapter 6 — Partitioning
+# Chapter 10 — Batch Processing
 
-## Lab: Sharded Key-Value Store
+## Lab: AI Document Batch Pipeline
 
-Hash-partition keys, create hotspots, rebalance, and discuss the effect on range queries.
+Extract, clean, chunk, and embed documents with parallel workers and safe reprocessing.
 
 ## Study rule
 Do not begin this implementation while an earlier chapter lab is unfinished.

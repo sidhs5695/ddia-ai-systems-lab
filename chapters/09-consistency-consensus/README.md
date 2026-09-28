@@ -1,8 +1,8 @@
-# Chapter 6 — Partitioning
+# Chapter 9 — Consistency and Consensus
 
-## Lab: Sharded Key-Value Store
+## Lab: Distributed Job Coordinator
 
-Hash-partition keys, create hotspots, rebalance, and discuss the effect on range queries.
+Use a lease-based leader, reproduce split brain, then add fencing tokens. Connect observations to linearizability, ordering, and consensus.
 
 ## Study rule
 Do not begin this implementation while an earlier chapter lab is unfinished.

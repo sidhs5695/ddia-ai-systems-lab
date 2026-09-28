@@ -1,8 +1,8 @@
-# Chapter 6 — Partitioning
+# Chapter 11 — Stream Processing
 
-## Lab: Sharded Key-Value Store
+## Lab: Kafka Real-time Ingestion
 
-Hash-partition keys, create hotspots, rebalance, and discuss the effect on range queries.
+Work with partitions, consumer groups, offsets, retries, DLQs, duplicate delivery, and idempotent consumers.
 
 ## Study rule
 Do not begin this implementation while an earlier chapter lab is unfinished.

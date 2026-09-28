@@ -1,34 +1,15 @@
 # Practical AI Engineering Track
 
-This track complements DDIA. It is aimed at software engineers building AI-backed products, not researchers training foundation models.
+This track complements DDIA and targets software engineers building AI-backed products.
 
 ## Modules
+1. LLM fundamentals
+2. Structured outputs
+3. Embeddings
+4. Vector search
+5. Retrieval-augmented generation
+6. Tool/function calling
+7. Evaluation
+8. Production concerns: latency, cost, caching, observability, model/embedding versioning
 
-1. **LLM fundamentals** — tokens, context, inference, model APIs
-2. **Structured outputs** — reliable machine-readable responses
-3. **Embeddings** — turning text into vectors for similarity
-4. **Vector search** — indexing and retrieval
-5. **RAG** — retrieval + prompt construction + generation
-6. **Tool calling** — letting models invoke application capabilities
-7. **Evaluation** — correctness, relevance, regressions
-8. **Production concerns** — latency, cost, caching, observability, model/embedding versioning
-
-## Rule
-
-Do not let the AI layer hide the distributed-systems layer.
-
-When an AI feature fails, ask whether the cause is:
-
-- model behavior,
-- retrieval quality,
-- stale/incorrect derived data,
-- storage,
-- networking,
-- concurrency,
-- retries,
-- backpressure,
-- rate limits,
-- versioning,
-- or observability.
-
-That distinction is a core goal of this repository.
+Do not let the AI layer hide the distributed-systems layer. When something fails, distinguish model behavior from retrieval, storage, networking, concurrency, retries, backpressure, rate limits, versioning, and observability.

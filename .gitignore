@@ -1,34 +1,16 @@
-# Java
 target/
 *.class
-*.jar
-*.war
-*.ear
-
-# Gradle
 .gradle/
 build/
-
-# IntelliJ
 .idea/
 *.iml
 out/
-
-# VS Code
 .vscode/
-
-# macOS
 .DS_Store
-
-# Logs
 *.log
-
-# Local env
 .env
 .env.*
 !.env.example
-
-# Node / AI experiments
 node_modules/
 .venv/
 venv/

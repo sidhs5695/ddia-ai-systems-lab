@@ -1,7 +1,5 @@
 # Progress Tracker
 
-Update this file only when a meaningful checkpoint is completed.
-
 | Chapter | Lab | Contributor 1 | Contributor 2 | Started | Completed |
 |---|---|---|---|---|---|
 | 1 | Production API Under Load | ⬜ | ⬜ | — | — |
@@ -19,8 +17,4 @@ Update this file only when a meaningful checkpoint is completed.
 
 Legend: ⬜ not started · 🟨 in progress · ✅ complete
 
-## Current focus
-
-**Chapter 1 — Reliable, Scalable, and Maintainable Applications**
-
-Do not move the implementation focus to Chapter 2 until the Chapter 1 completion criteria are met.
+**Current focus:** Chapter 1.

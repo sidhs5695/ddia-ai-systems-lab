@@ -1,8 +1,8 @@
-# Chapter 6 — Partitioning
+# Chapter 12 — The Future of Data Systems
 
-## Lab: Sharded Key-Value Store
+## Lab: Derived-data / RAG Knowledge Platform
 
-Hash-partition keys, create hotspots, rebalance, and discuss the effect on range queries.
+Combine source-of-truth data with rebuildable search/vector/cache state and reason about recovery and evolution.
 
 ## Study rule
 Do not begin this implementation while an earlier chapter lab is unfinished.
