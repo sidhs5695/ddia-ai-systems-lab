@@ -9,7 +9,7 @@ go run .
 
 Test:
 ```bash
-curl -i http://localhost:8080/tweets/123
+curl -i http://localhost:8080/documents/123
 ```
 
 Success means HTTP 200.

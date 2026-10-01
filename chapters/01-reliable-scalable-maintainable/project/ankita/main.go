@@ -7,12 +7,11 @@ import (
 )
 
 func main() {
-	http.HandleFunc("GET /tweets/{id}", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("GET /documents/{id}", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(map[string]string{
-			"id":     r.PathValue("id"),
-			"author": "incogni",
-			"text":   "reading chapter 1",
+			"id":      r.PathValue("id"),
+			"content": "DDIA notes",
 		})
 	})
 
